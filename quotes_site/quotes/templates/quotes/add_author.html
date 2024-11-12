@@ -1,0 +1,10 @@
+<form method="POST">
+    {% csrf_token %}
+    <label for="name">Name authors:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="url">URL authors:</label>
+    <input type="text" id="url" name="url" required>
+
+    <button type="submit">Add authors</button>
+</form>
